@@ -1,5 +1,5 @@
 ## What's this?
-This is an easy program about detecting ean13-barcode, written in C++ and Qt
+This is a project for recognizing ean13-barcode, algorithm written in C++ and GUI programming with Qt
 
 ## Enviroment
 I've tested on both Window7 and Fedora19.
