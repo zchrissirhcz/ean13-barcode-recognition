@@ -9,8 +9,7 @@
 #include "ui_mainwindow.h"
 #include <QFileDialog>
 #include <QMessageBox>
-#include <cv.h>
-#include <highgui.h>
+#include <opencv2/opencv.hpp>
 
 #include <QString>
 #include <vector>
