@@ -31,6 +31,8 @@ find_package(OpenCV REQUIRED)
 
 add_executable(barcode_recog
     barcode/main.cpp
+    barcode/barcode_recog.h
+    barcode/barcode_recog.cpp
     barcode/mainwindow.cpp
     barcode/mainwindow.h
     barcode/mainwindow.ui

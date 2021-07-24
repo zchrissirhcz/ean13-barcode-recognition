@@ -15,7 +15,7 @@
 #include <vector>
 #include <iostream>
 #include <string>
-#include "detect.h"
+#include "barcode_recog.h"
 
 using namespace std;
 using namespace cv;
