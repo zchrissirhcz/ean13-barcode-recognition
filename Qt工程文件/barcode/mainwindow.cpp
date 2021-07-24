@@ -21,9 +21,9 @@ using namespace std;
 using namespace cv;
 
 extern string RES;
-/*RES是条码识别结果，由于在detect.h文件中和mainwindow.cpp中都有使用所以用extern声明*/
+/*RES是条码识别结果，由于在regcog.h文件中和mainwindow.cpp中都有使用所以用extern声明*/
 
-/*Qt中有QString，但是detect.h中的识别过程使用的是string,需要做两者的互相转化*/
+/*Qt中有QString，但是recog.h中的识别过程使用的是string,需要做两者的互相转化*/
 QString s2q(const string &s);/*------------------------*/
 string q2s(const QString &s);
 

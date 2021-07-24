@@ -39,4 +39,4 @@ void skip_mguard(const MatU& img, Point& cur);
 void read_barcode(const std::string& filename);
 
 
-#endif // DETECT_H
+#endif // BARCODE_RECOG_H
